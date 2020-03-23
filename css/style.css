@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #464f54;
+}
+.container {
+  margin-top: 150px;
+}
+
+.content {
+  width: 1060px;
+  height: 100vh;
+  background-color: white;
+  margin: 0 auto;
+  position: relative;
+}
+article {
+  padding: 200px 132px 0 120px;
+}
+
+.line {
+  position: absolute;
+  left: 67px;
+  top: 0px;
+  height: 100%;
+  width: 2px;
+  background: black;
+  opacity: 0.3;
+}
+.title-block {
+  position: absolute;
+  width: 64vw;
+  height: 185px;
+  background-color: black;
+  padding: 50px 0 50px 60px;
+  left: 720px;
+  top: 47px;
+  z-index: 1;
+}
+
+h4 {
+  color: #fff;
+  opacity: 0.5;
+  font-size: 15px;
+}
+
+input {
+  border: unset;
+  background-color: #000;
+  color: #fff;
+  font-size: 48px;
+  font-family: "Playfair Display", serif;
+}
+.icons {
+  width: 62vw;
+  height: 75px;
+  background-color: #f7bd2c;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 550px;
+  position: absolute;
+  left: 760px;
+  top: 232px;
+  z-index: 1;
+}
+
+img {
+  opacity: 0.6;
+}
+
+.author,
+.title-text,
+h4 {
+  text-transform: uppercase;
+}
+.author {
+  font-size: 20px;
+  opacity: 0.6;
+}
+
+.title-text {
+  font-size: 78px;
+  padding-top: 50px;
+  font-weight: 900;
+  font-family: "PT Sans", sans-serif;
+  letter-spacing: 0.1em;
+}
+.title2-text {
+  font-size: 30px;
+  padding-top: 22px;
+  padding-bottom: 60px;
+  opacity: 0.5;
+  font-family: Georgia, serif;
+}
+.text {
+  font-size: 27px;
+  font-weight: 500;
+}
+em {
+  font-style: italic;
+}
+
+h4 {
+  font-size: 15px;
+  letter-spacing: 0.6em;
+}
+
+img:hover {
+  opacity: 1;
+}
